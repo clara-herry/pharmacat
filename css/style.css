@@ -14,15 +14,14 @@ body {
     text-align: center;
     background: rgb(176, 192, 189);
     background: radial-gradient(circle, rgba(191,214,215,1) 0%, rgba(202,209,213,1) 50%); 
+    color:black;
 }
 
 h1,h2,h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
 }
-a {
-    text-decoration: none;
-}
+
 
 p {
     font-size: 1em;
@@ -38,3 +37,7 @@ p {
     margin:5px;
     background-color: whitesmoke;
 }
+
+.a:hover {
+    text-decoration:double;
+  }
