@@ -4,14 +4,12 @@
 @import url("components/banner.css");
 @import url("components/card.css");
 
-
 body {
     font-family: 'Lora', serif;
     font-size: 1em;
     margin: 0px;
     text-align: center;
     background: rgb(176, 192, 189);
-    background: radial-gradient(circle, rgba(191,214,215,1) 0%, rgba(202,209,213,1) 50%); 
     color:black;
 }
 
