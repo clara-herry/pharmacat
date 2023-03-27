@@ -27,20 +27,23 @@
     transform: translateY(3px);
   }
 
+  .card:hover {
+    background: rgb(176, 192, 189);
+    outline: solid 5px white;
+    outline-offset: -5px;
+  }
+
   .card img {
     width: 120px;
     height: 120px;  
     border-radius: 5px;
-    /*box-shadow: 0px 2px 4px rgba(0,0,0,0.8);*/
     background: rgb(176, 192, 189);
-
     position: relative;
     left: 0;
     right:0;
     top:0;
     bottom:0;
     }
-
   
   .card h3 {
     width:150px;
@@ -49,16 +52,8 @@
     text-align: left;
     position: relative;
   }
-
-  .card:hover {
-    background: rgb(176, 192, 189);
-    border: 3px solid white;
   
-  }
-  
-
 .card:hover img {
   transition: all 0.2s ease;
   transform: scale(1.2, 1.2);
-
 }
